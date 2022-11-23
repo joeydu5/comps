@@ -4,18 +4,20 @@ function App() {
   return (
     <div className="App">
       <div>
-        <Button primary className="bg-purple-200">
-          Click0
+        <Button primary>Click0</Button>
+      </div>
+      <div>
+        <Button secondary>Click2</Button>
+      </div>
+      <div>
+        <Button success rounded>
+          Click3
         </Button>
       </div>
       <div>
-        <Button>Click2</Button>
-      </div>
-      <div>
-        <Button>Click3</Button>
-      </div>
-      <div>
-        <Button>Click4</Button>
+        <Button danger outline>
+          Click4
+        </Button>
       </div>
     </div>
   );
