@@ -1,24 +1,13 @@
 import Button from "./components/Button";
+import Link from "./components/Link";
+import ModalPage from "./pages/ModalPage";
 
 function App() {
   return (
     <div className="App">
-      <div>
-        <Button primary>Click0</Button>
-      </div>
-      <div>
-        <Button secondary>Click2</Button>
-      </div>
-      <div>
-        <Button success rounded>
-          Click3
-        </Button>
-      </div>
-      <div>
-        <Button danger outline>
-          Click4
-        </Button>
-      </div>
+      <Link to="/accordion">Go to Accordion</Link>
+      <Link to="/dropdown">Go to DropDown</Link>
+      <ModalPage />
     </div>
   );
 }
